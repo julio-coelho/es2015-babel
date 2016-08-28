@@ -1,14 +1,20 @@
 {
   "name": "es2015-babel",
   "version": "1.0.0",
-  "description": "",
+  "description": "es2015 + babel + gulp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Julio Coelho <juliocoelho@icloud.com> (http://juliocoelho.me/)",
   "license": "ISC",
+  "repository": "git@github.com:julio-coelho/es2015-babel.git",
   "devDependencies": {
-    "babel-preset-es2015": "^6.14.0"
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
